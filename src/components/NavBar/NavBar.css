@@ -4,21 +4,21 @@ nav{
     text-align: center;
     align-items: center;
     font-size: 2rem;
-    height: 15%;
+    height: 5rem;
 
     background-color: #593b33;
     font-family: 'League Spartan', sans-serif;
 }
 
-a{
+.link{
     color: #Fee499;
     text-decoration: none;
 }
-a:hover{
+.link:hover{
     font-size: 2.1rem;
     text-decoration: underline;
 }
-a:active{
+.link:active{
     font-size: 2rem;
     text-decoration: underline;
 }

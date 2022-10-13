@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #593b33;
+    color: #Fee499;
+    margin-top: 1rem;
+
+    height: auto;
+}
+.footer-title{
+    width: 100%;
+    height: fit-content;
+    font-size: 2.5rem;
+    padding: 0.3rem;
+    border-bottom: 0.2rem solid #Fee499;
+    margin: 0.4rem;
+}
+.email-div{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    align-items: center;
+}
+.email-text-title{
+    width: 100%;
+    font-size: 2.7rem;
+    margin-left: 1rem;
+}
+.email-text{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 2.7rem;
+    text-decoration: none;
+    color: #Fee499;
+}
+.social-links-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 10rem;
+}
+.social-click{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.facebook-text,
+.linkedIn-text{
+    margin-left: 0.2rem;
+}
