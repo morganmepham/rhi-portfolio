@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.homePage-header{
+    background-color: #5f443d;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homePage-header-title{
+    margin: 0;
+    color: #Fee499;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}

@@ -1,0 +1,24 @@
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 15%;
+
+    background-color: #593b33;
+    font-family: 'League Spartan', sans-serif;
+}
+
+a{
+    color: #Fee499;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 2.1rem;
+    text-decoration: underline;
+}
+a:active{
+    font-size: 2rem;
+    text-decoration: underline;
+}
