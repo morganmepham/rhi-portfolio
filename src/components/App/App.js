@@ -5,6 +5,7 @@ import Bookings from '../../pages/Bookings'
 import Contact from '../../pages/Contact'
 import About from '../../pages/About'
 import Footer from '../Footer/Footer';
+import SubjectPage from '../../pages/SubjectPage';
 
 function App() {
   return (
@@ -15,6 +16,14 @@ function App() {
           <Route path='book' element={<Bookings /> }/>
           <Route path='contact' element={ <Contact /> }/>
           <Route path='about' element={ <About /> }/>
+          <Route path='subjects'>
+            <Route path='Mathematics' element={<SubjectPage />} />
+            <Route path='English' element={<SubjectPage />} />
+            <Route path='History' element={<SubjectPage />} />
+            <Route path='Religious-studies' element={<SubjectPage />} />
+            <Route path='Psychology-sociology' element={<SubjectPage />} />
+            <Route path='Other' element={<SubjectPage />} />
+          </Route>
         </Route>
       </Routes>
       <Footer />

@@ -8,22 +8,27 @@ import social_background from '../../images/social_background.jpg'
 import gray from '../../images/gray.png'
 
 import './HomeSubjects.css'
+import { Link } from "react-router-dom";
 
 const HomeSubjects = () => {
     const subjects = [
-        {subject: 'Maths', src: maths_background, id: 1},
-        {subject: 'English', src: english_background, id: 2},
-        {subject: 'History', src: history_background, id: 3},
-        {subject: 'Religious Studies', src: rs_background, id: 4},
-        {subject: 'Psychology and Sociology', src: social_background, id: 5},
-        {subject: 'Other', src: gray, id: 6}
+        {subject: 'Mathematics', src: maths_background, id: 1, path: 'Mathematics'},
+        {subject: 'English', src: english_background, id: 2, path: 'English'},
+        {subject: 'History', src: history_background, id: 3, path: 'History'},
+        {subject: 'Religious Studies', src: rs_background, id: 4, path: 'Religious-studies'},
+        {subject: 'Psychology and Sociology', src: social_background, id: 5, path: 'Psychology-sociology'},
+        {subject: 'Other', src: gray, id: 6, path: 'Other'}
     ]
+
+    const handleClick = () => {
+        window.scrollTo(0, 0)
+    }
 
     const items = subjects.map((subject) => {
         return (
         <div className="subject-item" key={subject.id}>
             <img src={subject.src} alt={subject.subject} className="subject-image" />
-            <p className="subject-title">{subject.subject}</p>
+            <Link to={`/subjects/${subject.path}` }><p className="subject-title" onClick={handleClick}>{subject.subject}</p></Link>
         </div>
         )
     })

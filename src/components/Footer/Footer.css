@@ -51,7 +51,7 @@
 }
 .social-click{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
@@ -63,4 +63,7 @@
 .linkedIn-text:hover{
     margin-left: 0.3rem;
     font-size: 1.2rem;
+}
+.social-link{
+    width: 40%;
 }
