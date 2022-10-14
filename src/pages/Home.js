@@ -1,4 +1,5 @@
 import React from "react";
+import HomeFaqDisplay from "../components/HomeFaqDisplay/HomeFaqDisplay";
 import HomeHeader from "../components/HomeHeader/HomeHeader";
 import HomeIntro from "../components/HomeIntro/HomeIntro";
 import HomeSubjects from "../components/HomeSubjects/HomeSubjects";
@@ -12,6 +13,7 @@ const Home = () => {
           <NavBar />
           <HomeIntro />
           <HomeSubjects />
+          <HomeFaqDisplay />
         </>
     );
 }

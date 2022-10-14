@@ -1,0 +1,10 @@
+.faq-div{
+    height: fit-content;
+    background-color: #faddef;
+    padding: 1rem;
+}
+.faq-div-title{
+    font-size: 3.2rem;
+    margin-bottom: 1.4rem;
+    margin-left: 1rem;
+}
