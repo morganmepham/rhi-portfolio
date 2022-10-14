@@ -26,6 +26,3 @@ const HomeIntro = () => {
 }
  
 export default HomeIntro;
-
-
-//Then is subject boxes and remember they open up

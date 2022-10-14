@@ -1,0 +1,49 @@
+.subjects-div-title{
+    font-size: 3rem;
+    background-color: #faddef;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+.subjects-div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #faddef;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.subject-item{
+    width: 25%;
+    height: 40%;
+    margin: 2rem;
+    position: relative;
+    box-shadow: 0.3rem 0.3rem rgb(82, 79, 79);
+}
+
+.subject-image{
+    width: 100%;
+    height: 100%;
+}
+
+.subject-title{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.568);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.subject-title:hover{
+    background-color: rgba(128, 128, 128, 0.884);
+    font-size: 3.6rem;
+}
