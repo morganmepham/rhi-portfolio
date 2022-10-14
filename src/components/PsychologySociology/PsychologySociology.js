@@ -4,7 +4,7 @@ import './PsychologySociology.css'
 const PsychologySociology = () => {
     return (
         <div className="psychologySociology_page-div">
-            <h1 className="psychologySociology-title">English</h1>
+            <h1 className="psychologySociology-title">Psychology and Sociology</h1>
         </div>
 
     );

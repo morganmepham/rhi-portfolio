@@ -4,7 +4,7 @@ import './Other.css'
 const Other = () => {
     return (
         <div className="other_page-div">
-            <h1 className="other-title">English</h1>
+            <h1 className="other-title">Other</h1>
         </div>
 
     );

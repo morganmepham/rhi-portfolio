@@ -6,6 +6,9 @@ const Bookings = () => {
     return (
         <>
           <NavBar />
+          <div className="meeting-div">
+            
+          </div>
         </>
     );
 }

@@ -4,7 +4,7 @@ import './History.css'
 const History = () => {
     return (
         <div className="history_page-div">
-            <h1 className="history-title">English</h1>
+            <h1 className="history-title">History</h1>
         </div>
 
     );
