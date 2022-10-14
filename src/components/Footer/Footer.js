@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer">
             <h4 className="footer-title">Contact me</h4>
             <div className="email-div">
-                <a className="email-text" href="mailto:Email@gmail.com">Email@gmail.com</a>
+                <a className="email-text" href="mailto:rhianfishtutoring@gmail.com">rhianfishtutoring@gmail.com</a>
             </div>
             <div className="social-links-div">
                 <a href='#'>
