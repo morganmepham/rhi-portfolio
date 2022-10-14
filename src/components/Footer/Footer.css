@@ -9,8 +9,6 @@
     align-content: flex-start;
     background-color: #593b33;
     color: #Fee499;
-    margin-top: 1rem;
-
     height: auto;
 }
 .footer-title{
@@ -41,6 +39,9 @@
     text-decoration: none;
     color: #Fee499;
 }
+.email-text:hover{
+    font-size: 2.8rem;
+}
 .social-links-div{
     display: flex;
     justify-content: space-around;
@@ -57,4 +58,9 @@
 .facebook-text,
 .linkedIn-text{
     margin-left: 0.2rem;
+}
+.facebook-text:hover,
+.linkedIn-text:hover{
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
 }
