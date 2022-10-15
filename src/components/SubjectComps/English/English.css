@@ -1,10 +1,76 @@
 .english_page-div{
     height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #fdecfd;
 }
 .english-title{
     font-size: 5rem;
     margin: 3rem;
+    width: 100%;
 }
-.sub-div{
-    height: 10rem;
+
+.sub_subject-div{
+    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width: 25rem;
+    height: auto;
+    background-color: #fff;
+    border: 0.25rem solid black;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+.sub_subject-title{
+    height: 10%;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    text-decoration: underline;
+}
+
+.levels-div,
+.ages-div,
+.exam_boards-div,
+.texts-div{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+}
+.levels-text,
+.ages-text,
+.exam_boards-text,
+.texts-text{
+    width: 100%;
+    margin: 0.5rem;
+}
+.texts-span{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.levels-span,
+.ages-span,
+.exam_boards-span{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem;
+    padding-bottom: 0.4rem;
+    background-color: #26c226;
+    border: 0.1rem solid #18b318;
+    border-radius: 2rem;
+    margin: 0.5rem;
 }

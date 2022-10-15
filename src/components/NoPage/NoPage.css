@@ -1,0 +1,19 @@
+.not-found-div{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+.not-found-text{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 4rem;
+}
+.not-found-text2{
+    font-size: 2.7rem;
+    width: 100%;
+}

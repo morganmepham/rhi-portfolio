@@ -6,6 +6,7 @@ import Contact from '../../pages/Contact'
 import About from '../../pages/About'
 import Footer from '../Footer/Footer';
 import SubjectPage from '../../pages/SubjectPage';
+import PageNotFound from '../../pages/PageNotFound';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='Psychology-sociology' element={<SubjectPage />} />
             <Route path='Other' element={<SubjectPage />} />
           </Route>
+          <Route path='*' element={<PageNotFound />}/>
         </Route>
       </Routes>
       <Footer />

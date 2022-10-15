@@ -1,3 +1,13 @@
 .history_page-div{
-    height: 60rem;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #fdecfd;
+}
+.history-title{
+    font-size: 5rem;
+    margin: 3rem;
+    width: 100%;
 }

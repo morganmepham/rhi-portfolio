@@ -1,0 +1,39 @@
+.sub_section-buttons-div{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.introduction-button,
+.price-button{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+.introduction-button{
+    width: 55%;
+    background-color: aquamarine;
+    border: 0.2rem solid #67d8d8;
+    border-radius: 1rem;
+    
+}
+.price-button{
+    width: 30%;
+    background-color: #77e774;
+    border: 0.2rem solid #57ca53;
+    border-radius: 1rem;
+}
+.introduction-button:hover,
+.price-button:hover{
+    font-weight: 600;
+}
+.introduction-button:active,
+.price-button:active{
+    font-weight: 400;
+}
+.price-button-link{
+    color: #000;
+}

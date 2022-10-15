@@ -1,33 +1,70 @@
 import React from "react";
+import SubSubjectButtons from "../../SubSubjectButtons/SubSubjectButtons";
 import './English.css'
 
 const English = () => {
+
+    const subSubjectData = [
+        {name: 'English Literature', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International'], texts: ['MacBeth', 'To Kill a Mockingbird']}, 
+        {name: 'English Language', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+        {name: 'Essay writing', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+        {name: 'English as a foreign language', ages:['11+', '13+', '18+']},
+        {name: 'IELTS', ages:['11+', '13+', '18+']}
+    ]
+
     return (
         <div className="english_page-div">
             <h1 className="english-title">English</h1>
+            {subSubjectData.map((subSubject) => {
+                return (
+                <div className="sub_subject-div">
+                    <h2 className="sub_subject-title">{subSubject.name}</h2>
 
-            <div className="english_lit-div sub-div">
-                <h2 className="english_lit-title">English Literature</h2>
-            </div>
+                    {subSubject.texts && <div className="texts-div">
+                        <h4 className="texts-text">Texts</h4>
+                        {subSubject.texts.map((text) => {
+                            return (
+                                <span className="texts-span">{text}</span>
+                            )
+                        })}
+                    </div>}
 
-            <div className="english_lang-div sub-div">
-                <h2 className="english_lang-title">English Language</h2>
-            </div>
+                    {subSubject.levels && <div className="levels-div">
+                        <h4 className="levels-text">At Levels</h4>
+                        {subSubject.levels.map((level) => {
+                            return (
+                                <span className="levels-span">{level}</span>
+                            )
+                        })}
+                    </div>}
 
-            <div className="english_foreign-lang-div sub-div">
-                <h2 className="english_foreign-lang-title">English as a foreign Language</h2>
-            </div>
+                    {subSubject.ages && <div className="ages-div">
+                        <h4 className="ages-text">Ages</h4>
+                        {subSubject.ages.map((age) => {
+                            return (
+                                <span className="ages-span">{age}</span>
+                            )
+                        })}
+                    </div>}
 
-            <div className="ielts-div sub-div">
-                <h2 className="ielts-title">IELTS</h2>
-            </div>
+                    {subSubject.exam_boards && <div className="exam_boards-div">
+                        <h4 className="exam_boards-text">Exam Boards</h4>
+                        {subSubject.exam_boards.map((examBoard) => {
+                            return (
+                                <span className="exam_boards-span">{examBoard}</span>
+                            )
+                        })}
+                    </div>}
+                    
+                    <SubSubjectButtons />
 
-            <div className="essay-div sub-div">
-                <h2 className="essay-title">Essay Writing</h2>
-            </div>
+                </div>
+                )
+            })}
         </div>
-
     );
+
+
 }
  
 export default English;

@@ -6,6 +6,7 @@ import History from '../SubjectComps/History/History'
 import ReligiousStudies from '../SubjectComps/ReligiousStudies/ReligiousStudies'
 import PsychologySociology from '../SubjectComps/PsychologySociology/PsychologySociology'
 import Other from '../SubjectComps/Other/Other'
+import PageNotFound from '../../pages/PageNotFound'
 
 
 const SubjectPageItem = (props) => {
@@ -30,6 +31,8 @@ const SubjectPageItem = (props) => {
         case 'Other':
             component = <Other />
             break;
+        default:
+            component = <PageNotFound />
     }
 
     return (
