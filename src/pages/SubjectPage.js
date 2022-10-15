@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from '../components/public_comps/NavBar/NavBar'
-import SubjectPageItem from "../components/SubjectPageItem/SubjectPageItem";
+import SubjectPageItem from "../components/home_comps/SubjectPageItem/SubjectPageItem";
 
 
 const SubjectPage = () => {

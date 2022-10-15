@@ -1,6 +1,6 @@
 import React from "react";
 import './ReligiousStudies.css'
-import SubSubjectButtons from "../../SubSubjectButtons/SubSubjectButtons";
+import SubSubjectButtons from "../../home_comps/SubSubjectButtons/SubSubjectButtons";
 
 const ReligiousStudies = () => {
     const subSubjectData = [

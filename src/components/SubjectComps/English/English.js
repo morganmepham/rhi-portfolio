@@ -1,5 +1,5 @@
 import React from "react";
-import SubSubjectButtons from "../../SubSubjectButtons/SubSubjectButtons";
+import SubSubjectButtons from "../../home_comps/SubSubjectButtons/SubSubjectButtons";
 import './English.css'
 
 const English = () => {

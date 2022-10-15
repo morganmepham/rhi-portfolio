@@ -1,12 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from '../../pages/Home';
-import Contact from '../../pages/Contact'
-import About from '../../pages/About'
+import Home from '../../../pages/Home';
+import Contact from '../../../pages/Contact'
+import About from '../../../pages/About'
 import Footer from '../Footer/Footer';
-import SubjectPage from '../../pages/SubjectPage';
-import PageNotFound from '../../pages/PageNotFound';
-import Prices from '../../pages/Prices';
+import SubjectPage from '../../../pages/SubjectPage';
+import PageNotFound from '../../../pages/PageNotFound';
+import Prices from '../../../pages/Prices';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import './Maths.css'
-import SubSubjectButtons from "../../SubSubjectButtons/SubSubjectButtons";
+import SubSubjectButtons from "../../home_comps/SubSubjectButtons/SubSubjectButtons";
 
 const Maths = () => {
     const subSubjectData = [

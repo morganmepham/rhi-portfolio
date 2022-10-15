@@ -1,12 +1,12 @@
 import React from "react";
 import './SubjectPageItem.css'
-import Maths from "../SubjectComps/Maths/Maths";
-import English from '../SubjectComps/English/English'
-import History from '../SubjectComps/History/History'
-import ReligiousStudies from '../SubjectComps/ReligiousStudies/ReligiousStudies'
-import PsychologySociology from '../SubjectComps/PsychologySociology/PsychologySociology'
-import Other from '../SubjectComps/Other/Other'
-import PageNotFound from '../../pages/PageNotFound'
+import Maths from "../../SubjectComps/Maths/Maths";
+import English from '../../SubjectComps/English/English'
+import History from '../../SubjectComps/History/History'
+import ReligiousStudies from '../../SubjectComps/ReligiousStudies/ReligiousStudies'
+import PsychologySociology from '../../SubjectComps/PsychologySociology/PsychologySociology'
+import Other from '../../SubjectComps/Other/Other'
+import PageNotFound from '../../../pages/PageNotFound'
 
 
 const SubjectPageItem = (props) => {
