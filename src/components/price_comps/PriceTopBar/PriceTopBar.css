@@ -1,0 +1,32 @@
+.book_intro-div{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #65d494;
+}
+.book-intro-button{
+    width: 10%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #064706;
+    background-color: #258125;
+    color: #064706;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.book-intro-text{
+    color: #064706;
+    font-size: 2.9rem;
+    margin-right: 2rem;
+}
+.book-intro-button:hover{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+}

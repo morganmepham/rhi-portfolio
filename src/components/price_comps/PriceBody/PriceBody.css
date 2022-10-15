@@ -1,0 +1,44 @@
+.price_body-div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fdecfd;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+}
+.price-title{
+    width: 100%;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.price-box-div{
+    width: 20%;
+    height: 40%;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price-box-title{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.basic-rate-text{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.lesson-length{
+    font-size: 3rem;
+}
+.deal-total{
+    font-size: 2rem;
+    font-weight: 400;
+    width: 100%;
+}

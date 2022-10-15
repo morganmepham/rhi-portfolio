@@ -1,0 +1,27 @@
+.instructions-div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+    background-color: #fdecfd;
+    align-content: flex-start;
+}
+
+.instructions-title{
+    width: 100%;
+    height: fit-content;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.instructions-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+    margin-left: 3rem;
+}
+.instructions-list-item{
+    width: 100%;
+    font-size: 2rem;
+}
