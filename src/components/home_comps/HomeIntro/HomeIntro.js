@@ -1,5 +1,5 @@
 import React from "react";
-import IntroImg from '../../images/IntroImg.jpeg'
+import IntroImg from '../../../images/IntroImg.jpeg'
 import './HomeIntro.css'
 
 const HomeIntro = () => {

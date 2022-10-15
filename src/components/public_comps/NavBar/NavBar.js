@@ -11,7 +11,7 @@ const NavBar = () => {
     return ( 
         <nav>
             <Link to='/' className="link">Home</Link>
-            <Link to='/book' className="link">Book Sessions</Link>
+            <Link to='/prices' className="link">Prices</Link>
             <Link to='/about' className="link">About me</Link>
             <p className="link" onClick={handleContactClick}>Contact Me</p>
         </nav>

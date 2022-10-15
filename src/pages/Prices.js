@@ -2,12 +2,13 @@ import React from "react";
 import NavBar from '../components/public_comps/NavBar/NavBar'
 
 
-const Contact = () => {
+const Prices = () => {
     return (
         <>
           <NavBar />
+          
         </>
     );
 }
  
-export default Contact;
+export default Prices;
