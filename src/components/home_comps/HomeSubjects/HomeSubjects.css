@@ -7,8 +7,8 @@
 .subjects-div{
     display: flex;
     flex-wrap: wrap;
-    height: 40rem;
-    justify-content: center;
+    height: fit-content;
+    justify-content: space-around;
     align-items: center;
     background-color: #fdecfd;
     padding-top: 3rem;
@@ -46,4 +46,61 @@
 .subject-title:hover{
     background-color: rgba(128, 128, 128, 0.884);
     font-size: 3.6rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .subject-item{
+        width: 40%;
+        height: 40%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .subjects-div-title{
+        font-size: 2.3rem;
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    .subjects-div{
+        padding-top: 1rem;
+    }
+    .subject-title{
+        font-size: 2.8rem;
+    }
+    .subject-title:hover{
+        font-size: 2.9rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .subject-title{
+        font-size: 2.4rem;
+    }
+    .subject-title:hover{
+        font-size: 2.5rem;
+    }
+    .subject-item{
+        margin: 1rem;
+    }
+    .subjects-div-title{
+        font-size: 2rem;
+        padding-top: 1.7rem;
+        padding-left: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .subject-item{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .subject-title{
+        font-size: 2rem;
+    }
+    .subject-title:hover{
+        font-size: 2.1rem;
+    }
+    .subjects-div-title{
+        font-size: 1.6rem;
+        padding-top: 1rem;
+        padding-left: 0.7rem;
+    }
 }

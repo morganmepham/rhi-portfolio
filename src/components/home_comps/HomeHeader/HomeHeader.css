@@ -13,3 +13,33 @@
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
 }
+@media screen and (max-width: 600px) {
+    .homePage-header{
+        height: 12%;
+    }
+    .homePage-header-title{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .homePage-header{
+        height: 10%;
+        justify-content: flex-start;
+    }
+    .homePage-header-title{
+        font-size: 2.5rem;
+        margin-left: 0.6rem;
+
+    }
+}
+@media screen and (max-width: 340px) {
+    .homePage-header{
+        height: 10%;
+        justify-content: flex-start;
+    }
+    .homePage-header-title{
+        font-size: 2.2rem;
+        margin-left: 0.5rem;
+
+    }
+}

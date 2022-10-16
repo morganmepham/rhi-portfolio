@@ -6,7 +6,7 @@ const SubSubjectButtons = () => {
     return (
         <div className="sub_section-buttons-div">
             <span className="introduction-button">Book an introduction</span>
-            <Link to='/book' className="price-button-link"><span className="price-button">See prices</span></Link>
+            <Link to='/prices' className="price-button-link"><span className="price-button">See prices</span></Link>
         </div>
     );
 }
