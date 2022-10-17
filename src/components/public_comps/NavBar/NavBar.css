@@ -1,11 +1,10 @@
 nav{
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(2, 50%);
     text-align: center;
     align-items: center;
     font-size: 2rem;
     height: 5rem;
-
     background-color: #593b33;
     font-family: 'League Spartan', sans-serif;
 }
@@ -13,6 +12,11 @@ nav{
 .link{
     color: #Fee499;
     text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .link:hover{
     font-size: 2.1rem;
@@ -22,6 +26,7 @@ nav{
     font-size: 2rem;
     text-decoration: underline;
 }
+
 @media screen and (max-width: 1400px) {
     nav{
         font-size: 1.9rem;
