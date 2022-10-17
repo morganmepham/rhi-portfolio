@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .introduction-button{
-    width: 55%;
+    width: 100%;
     background-color: aquamarine;
     border: 0.2rem solid #67d8d8;
     border-radius: 1rem;
@@ -37,6 +37,7 @@
 .price-button-link{
     color: #000;
 }
+
 @media screen and (max-width: 460px) {
     .introduction-button,
     .price-button{

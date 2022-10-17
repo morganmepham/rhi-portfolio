@@ -29,6 +29,13 @@
     font-weight: 400;
     height: 80%;
 }
+.price-intro-button{
+    color: #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 1350px) {
     .intro-button-div{
         height: 15%;

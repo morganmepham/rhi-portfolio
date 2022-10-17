@@ -7,15 +7,14 @@
     background-color: #Fee499;
 }
 .book-intro-button{
-    width: 13%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0.3rem solid #4d332c;
     color: #593b33;
     border-radius: 1rem;
-    margin-left: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
     cursor: pointer;
@@ -34,6 +33,11 @@
 .book-intro-button:active{
     font-size: 1.5rem;
     font-weight: 600;
+}
+.book-intro-link{
+    width: 25%;
+    height: fit-content;
+    margin-left: 2rem;
 }
 
 @media screen and (max-width: 1300px) {
@@ -55,17 +59,20 @@
     .book-intro-text{
         font-size: 1.6rem;
         margin-right: 1rem;
+        text-align: end;
     }
     .book-intro-button{
         font-size: 1.3rem;
-        margin-left: 1rem;
-        width: 15%;
+
     }
     .book-intro-button:hover{
         font-size: 1.4rem;
     }
     .book-intro-button:active{
         font-size: 1.3rem;
+    }
+    .book-intro-link{
+        margin-left: 0.3rem;
     }
 }
 @media screen and (max-width: 600px) {
@@ -78,13 +85,15 @@
     }
     .book-intro-button{
         font-size: 1.2rem;
-        width: 17%;
     }
     .book-intro-button:hover{
         font-size: 1.3rem;
     }
     .book-intro-button:active{
         font-size: 1.2rem;
+    }
+    .book-intro-link{
+        width: 40%;
     }
     
 }
@@ -93,9 +102,6 @@
         font-size: 1.2rem;
         margin-right: 0.7rem;
         text-align: right;
-    }
-    .book-intro-button{
-        width: 30%;
     }
 
 }
@@ -108,7 +114,6 @@
     }
     .book-intro-button{
         font-size: 1.1rem;
-        width: 35%;
     }
 }
 @media screen and (max-width: 350px) {
@@ -119,7 +124,6 @@
     }
     .book-intro-button{
         font-size: 1rem;
-        width: 35%;
     }
     .book-intro-button:hover{
         font-size: 1.1rem;
