@@ -13,18 +13,18 @@ const PriceBody = () => {
             {age: 'AS/A-Level', price: '20', id: 3}
         ],
         deals: [
-            {lessons: '5', prices: ['KS2, KS3, KS4 for £65', 'GCSE for £75', 'AS/A-Level for £80'], id: 1},
-            {lessons: '10', prices: ['KS2, KS3, KS4 for £120', 'GCSE for £140', 'AS/A-Level for £150'], id: 2},
+            {lessons: '5', prices: ['KS2, KS3, KS4 - £65', 'GCSE for £75', 'AS/A-Level - £80'], id: 1},
+            {lessons: '10', prices: ['KS2, KS3, KS4 - £120', 'GCSE - £140', 'AS/A-Level - £150'], id: 2},
         ]
     }
     return (
         <div className="price_body-div">
             <h1 className="price-title">Prices</h1>
-            <div className="price-box-div">
-                <h2 className="price-box-title">Basic Rate</h2>
+            <div className="price-box-div basic-rate-div">
+                <h2 className="price-box-title basic-rate-title">Basic Rate</h2>
                 <h3 className="lesson-length">{`${prices2.lessonLength} sessions`}</h3>
                 {prices2.basicRate.map((rates) => {
-                    return <h3 className="basic-rate-text" key = {rates.id}>{`${rates.age} at £${rates.price} per hour`}</h3>
+                    return <h3 className="basic-rate-text" key = {rates.id}>{`${rates.age} - £${rates.price}ph`}</h3>
                 })}
                 <BookIntroButton />
             </div>

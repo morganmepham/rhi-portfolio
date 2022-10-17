@@ -29,3 +29,16 @@
     font-weight: 400;
     height: 80%;
 }
+@media screen and (max-width: 1350px) {
+    .intro-button-div{
+        height: 15%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .intro-button-div{
+        height: 12%;
+    }
+    .intro-button-span{
+        width: 90%;
+    }
+}

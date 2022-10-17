@@ -40,6 +40,7 @@
     .book-intro-text{
         font-size: 2.4rem;
     }
+
 }
 @media screen and (max-width: 1000px) {
     .book-intro-text{
@@ -60,6 +61,12 @@
         margin-left: 1rem;
         width: 15%;
     }
+    .book-intro-button:hover{
+        font-size: 1.4rem;
+    }
+    .book-intro-button:active{
+        font-size: 1.3rem;
+    }
 }
 @media screen and (max-width: 600px) {
     .book_intro-div{
@@ -71,9 +78,15 @@
     }
     .book-intro-button{
         font-size: 1.2rem;
-        margin-left: 1rem;
         width: 17%;
     }
+    .book-intro-button:hover{
+        font-size: 1.3rem;
+    }
+    .book-intro-button:active{
+        font-size: 1.2rem;
+    }
+    
 }
 @media screen and (max-width: 500px) {
     .book-intro-text{
@@ -84,6 +97,7 @@
     .book-intro-button{
         width: 30%;
     }
+
 }
 @media screen and (max-width: 400px) {
     .book_intro-div{
@@ -106,5 +120,11 @@
     .book-intro-button{
         font-size: 1rem;
         width: 35%;
+    }
+    .book-intro-button:hover{
+        font-size: 1.1rem;
+    }
+    .book-intro-button:active{
+        font-size: 1rem;
     }
 }
