@@ -55,6 +55,11 @@
         font-size: 3.2rem;
     }
 }
+@media screen and (max-width: 750px) {
+    .homePage-header{
+        height: 15%;
+    }
+}
 @media screen and (max-width: 600px) {
     .homePage-header{
         height: 12%;
