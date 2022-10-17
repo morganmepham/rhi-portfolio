@@ -35,7 +35,7 @@
 }
 .badge-span{
     border: 0.2rem solid #4e6d4e;
-    background-color: #6fa16f;
+    background-color: #83e483;
     border-radius: 1rem;
     height: 15%;
     width: 90%;
@@ -44,7 +44,7 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 @media screen and (max-width: 1310px) {
     .intro-title{
@@ -125,6 +125,7 @@
         width: 20rem;
         order: 2;
         margin-top: 1rem;
+        margin-right: 0;
     }
     .badges-div{
        display: none;

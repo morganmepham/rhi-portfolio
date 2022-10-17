@@ -4,7 +4,7 @@ import maths_background from '../../../images/maths_background.jpg'
 import history_background from '../../../images/history_background.jpg'
 import english_background from '../../../images/english_background.jpg'
 import rs_background from '../../../images/rs_background.jpg'
-import social_background from '../../../images/social_background.jpg'
+import social_background from '../../../images/social_background.png'
 import gray from '../../../images/gray.png'
 
 import './HomeSubjects.css'
