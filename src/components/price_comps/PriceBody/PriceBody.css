@@ -105,3 +105,14 @@
     }
 
 }
+@media screen and (max-width: 390px) {
+    .price-box-div{
+        min-width: 15rem;
+    }
+    .basic-rate-text{
+        font-size: 1.3rem;
+    }
+    .totals-deals{
+        font-size: 1.3rem;
+    }
+}
