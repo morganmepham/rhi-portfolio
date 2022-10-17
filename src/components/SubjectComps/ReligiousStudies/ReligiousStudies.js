@@ -9,7 +9,7 @@ const ReligiousStudies = () => {
 
     return (
         <div className="rs_page-div">
-            <h1 className="rs-title">Religious Studies</h1>
+            <h1 className="subject-page-title">Religious Studies</h1>
             {subSubjectData.map((subSubject) => {
                 return (
                 <div className="sub_subject-div">

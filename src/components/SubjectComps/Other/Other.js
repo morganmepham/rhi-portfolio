@@ -14,7 +14,7 @@ const Other = () => {
 
     return (
         <div className="other_page-div">
-            <h1 className="other-title">Other</h1>
+            <h1 className="subject-page-title">Other</h1>
             {subSubjectData.map((subSubject) => {
                 return (
                 <div className="sub_subject-div">

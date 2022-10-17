@@ -6,18 +6,19 @@
 
     background-color: #fdecfd;
 }
-.english-title{
+.subject-page-title{
     font-size: 5rem;
     margin: 3rem;
     width: 100%;
 }
 
 .sub_subject-div{
-    margin: 5rem;
+    margin: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    width: 25rem;
+    min-width: 25rem;
+    width: 28%;
     height: auto;
     background-color: #fff;
     border: 0.25rem solid black;
@@ -73,4 +74,33 @@
     border: 0.1rem solid #18b318;
     border-radius: 2rem;
     margin: 0.5rem;
+}
+@media screen and (max-width: 1000px) {
+    .sub_subject-div{
+        width: 27%;
+        margin: 1rem;
+    }
+    .subject-page-title{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .subject-page-title{
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .sub_subject-div{
+        min-width: 18rem;
+        width: 27%;
+        margin: 1rem;
+    }
+    .sub_subject-title{
+        font-size: 1.3rem;
+    }
+    .subject-page-title{
+        font-size: 2.3rem;
+        margin-left: 1rem;
+    }
 }

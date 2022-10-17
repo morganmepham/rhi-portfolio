@@ -73,6 +73,7 @@
     }
     .faq-answer{
         font-size: 1.4rem;
+        margin-left: 0.5rem;
     }
 }
 @media screen and (max-width: 400px) {
@@ -91,6 +92,10 @@
     }
     .faq-answer{
         font-size: 1.1rem;
+        margin-left: 0.2rem;
+    }
+    .faq-item{
+        padding-left: 0.4rem;
     }
 }
 @media screen and (max-width: 320px) {

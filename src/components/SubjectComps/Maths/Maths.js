@@ -10,7 +10,7 @@ const Maths = () => {
 
     return (
         <div className="maths_page-div">
-            <h1 className="maths-title">Mathematics</h1>
+            <h1 className="subject-page-title">Mathematics</h1>
             {subSubjectData.map((subSubject) => {
                 return (
                 <div className="sub_subject-div">

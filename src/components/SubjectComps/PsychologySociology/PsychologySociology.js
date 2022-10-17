@@ -10,7 +10,7 @@ const PsychologySociology = () => {
 
     return (
         <div className="ps_page-div">
-            <h1 className="ps-title">Psychology and Sociology</h1>
+            <h1 className="subject-page-title">Psychology and Sociology</h1>
             {subSubjectData.map((subSubject) => {
                 return (
                 <div className="sub_subject-div">

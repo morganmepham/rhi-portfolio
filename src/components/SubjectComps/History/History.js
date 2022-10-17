@@ -10,7 +10,7 @@ const History = () => {
 
     return (
         <div className="history_page-div">
-            <h1 className="history-title">History</h1>
+            <h1 className="subject-page-title">History</h1>
             {subSubjectData.map((subSubject) => {
                 return (
                 <div className="sub_subject-div">

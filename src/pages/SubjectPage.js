@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from '../components/public_comps/NavBar/NavBar'
 import SubjectPageItem from "../components/home_comps/SubjectPageItem/SubjectPageItem";
+import Header from '../components/home_comps/Header/Header'
 
 
 const SubjectPage = () => {
@@ -11,6 +12,7 @@ const SubjectPage = () => {
 
     return (
         <>
+          <Header />
           <NavBar />
           <SubjectPageItem subject ={subject}/>
         </>

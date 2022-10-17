@@ -37,3 +37,9 @@
 .price-button-link{
     color: #000;
 }
+@media screen and (max-width: 460px) {
+    .introduction-button,
+    .price-button{
+        font-size: 1rem;
+    }
+}

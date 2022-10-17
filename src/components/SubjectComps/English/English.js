@@ -14,7 +14,7 @@ const English = () => {
 
     return (
         <div className="english_page-div">
-            <h1 className="english-title">English</h1>
+            <h1 className="subject-page-title">English</h1>
             {subSubjectData.map((subSubject) => {
                 return (
                 <div className="sub_subject-div">
