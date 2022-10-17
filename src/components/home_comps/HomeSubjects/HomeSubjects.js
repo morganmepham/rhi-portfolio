@@ -6,6 +6,7 @@ import english_background from '../../../images/english_background.jpg'
 import rs_background from '../../../images/rs_background.jpg'
 import social_background from '../../../images/social_background.png'
 import gray from '../../../images/gray.png'
+import rs2_background from '../../../images/rs2_background.png'
 
 import './HomeSubjects.css'
 import { Link } from "react-router-dom";
@@ -15,7 +16,7 @@ const HomeSubjects = () => {
         {subject: 'Mathematics', src: maths_background, id: 1, path: 'Mathematics'},
         {subject: 'English', src: english_background, id: 2, path: 'English'},
         {subject: 'History', src: history_background, id: 3, path: 'History'},
-        {subject: 'Religious Studies', src: rs_background, id: 4, path: 'Religious-studies'},
+        {subject: 'Religious Studies', src: rs2_background, id: 4, path: 'Religious-studies'},
         {subject: 'Psychology and Sociology', src: social_background, id: 5, path: 'Psychology-sociology'},
         {subject: 'Other', src: gray, id: 6, path: 'Other'}
     ]
@@ -34,7 +35,7 @@ const HomeSubjects = () => {
     })
     return (
         <>
-            <h2 className="subjects-div-title">What I teach</h2>
+            <h2 className="subjects-div-title">Subjects</h2>
             <div className="subjects-div">
                 {items}
             </div>

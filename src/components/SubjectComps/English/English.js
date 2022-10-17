@@ -8,8 +8,8 @@ const English = () => {
         {name: 'English Literature', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International'], texts: ['MacBeth', 'To Kill a Mockingbird']}, 
         {name: 'English Language', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
         {name: 'Essay writing', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
-        {name: 'English as a foreign language', ages:['11+', '13+', '18+']},
-        {name: 'IELTS', ages:['11+', '13+', '18+']}
+        {name: 'English as a Foreign Language', ages:['11+', '13+', '18+']},
+        {name: 'IELTS', ages:['11+', '13+', '18+', '25+']}
     ]
 
     return (
@@ -20,17 +20,9 @@ const English = () => {
                 <div className="sub_subject-div">
                     <h2 className="sub_subject-title">{subSubject.name}</h2>
 
-                    {subSubject.texts && <div className="texts-div">
-                        <h4 className="texts-text">Texts</h4>
-                        {subSubject.texts.map((text) => {
-                            return (
-                                <span className="texts-span">{text}</span>
-                            )
-                        })}
-                    </div>}
 
                     {subSubject.levels && <div className="levels-div">
-                        <h4 className="levels-text">At Levels</h4>
+                        <h4 className="levels-text">Levels</h4>
                         {subSubject.levels.map((level) => {
                             return (
                                 <span className="levels-span">{level}</span>

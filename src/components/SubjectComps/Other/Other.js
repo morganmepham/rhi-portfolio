@@ -5,10 +5,15 @@ import SubSubjectButtons from "../../home_comps/SubSubjectButtons/SubSubjectButt
 const Other = () => {
     const subSubjectData = [
         {name: `SAT's`, levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
-        {name: `Personal Statements`, levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
-        {name: `UCAS Applications`, levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
-        {name: `University Applications `, levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+
+        {name: `Personal Statements`, levels: ['GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+
+        {name: `UCAS Applications`, levels: ['GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+
+        {name: `University Applications `, levels: ['GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+
         {name: `Admissions Tests`, levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']},
+
         {name: `Interview Preparation`, levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']}
     ]
 
@@ -30,7 +35,7 @@ const Other = () => {
                     </div>}
 
                     {subSubject.levels && <div className="levels-div">
-                        <h4 className="levels-text">At Levels</h4>
+                        <h4 className="levels-text">Levels</h4>
                         {subSubject.levels.map((level) => {
                             return (
                                 <span className="levels-span">{level}</span>

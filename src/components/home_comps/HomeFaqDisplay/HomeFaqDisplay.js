@@ -4,10 +4,15 @@ import './HomeFaqDisplay.css'
 
 const HomeFaqDisplay = () => {
     const faqList = [
-        {q: 'How do I book sessions?', a: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et voluptate illo, eligendi blanditiis amet. Maiores nisi obcaecati saepe, deserunt hic quam, aliquam sed quibusdam fuga, nesciunt eos! Delectus, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, itaque ipsum vel ipsam perferendis esse eum repudiandae adipisci maiores officia provident odit doloremque nisi dolor a consequatur harum non vitae?`, id: 1},
-        {q: 'How do I book sessions?', a: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et voluptate illo, eligendi blanditiis amet. Maiores nisi obcaecati saepe, deserunt hic quam, aliquam sed quibusdam fuga, nesciunt eos! Delectus, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, itaque ipsum vel ipsam perferendis esse eum repudiandae adipisci maiores officia provident odit doloremque nisi dolor a consequatur harum non vitae?`, id: 2},
-        {q: 'How do I book sessions?', a: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et voluptate illo, eligendi blanditiis amet. Maiores nisi obcaecati saepe, deserunt hic quam, aliquam sed quibusdam fuga, nesciunt eos! Delectus, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, itaque ipsum vel ipsam perferendis esse eum repudiandae adipisci maiores officia provident odit doloremque nisi dolor a consequatur harum non vitae?`, id: 3},
-        {q: 'How do I book sessions?', a: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et voluptate illo, eligendi blanditiis amet. Maiores nisi obcaecati saepe, deserunt hic quam, aliquam sed quibusdam fuga, nesciunt eos! Delectus, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, itaque ipsum vel ipsam perferendis esse eum repudiandae adipisci maiores officia provident odit doloremque nisi dolor a consequatur harum non vitae?`, id: 4},
+        {q: 'How do I book sessions?', a: `Click the "Book an introduction" button.
+        Fill out the Google Form. Make sure all required fields are filled.
+        I will contact you to arrange an introduction.`, id: 1},
+
+        {q: 'Can I have online sessions?', a: `Yes! I offer both Online and In-person tutoring. All you need to do is select your preference when booking.`, id: 2},
+
+        {q: 'Can I have group sessions?', a: `Yes, if you'd like to study with friends. Include their contact details on the booking form and we'll work out a time that works best for all.`, id: 3},
+
+        {q: 'How much does it cost?', a: `See our full list of rates and offers on the prices page.`, id: 4},
     ]
 
     

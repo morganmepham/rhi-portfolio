@@ -1,6 +1,6 @@
 .subjects-div-title{
     font-size: 3rem;
-    background-color: #fdecfd;
+    background-color: #fff;
     padding-top: 4rem;
     padding-left: 2rem;
 }
@@ -10,7 +10,7 @@
     height: fit-content;
     justify-content: space-around;
     align-items: center;
-    background-color: #fdecfd;
+    background-color: #fff;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }

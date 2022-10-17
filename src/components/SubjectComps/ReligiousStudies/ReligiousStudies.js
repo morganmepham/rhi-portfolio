@@ -25,7 +25,7 @@ const ReligiousStudies = () => {
                     </div>}
 
                     {subSubject.levels && <div className="levels-div">
-                        <h4 className="levels-text">At Levels</h4>
+                        <h4 className="levels-text">Levels</h4>
                         {subSubject.levels.map((level) => {
                             return (
                                 <span className="levels-span">{level}</span>

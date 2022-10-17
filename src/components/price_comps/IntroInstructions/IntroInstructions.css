@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
-    background-color: #fdecfd;
+    background-color: #fff;
     align-content: flex-start;
 }
 
@@ -21,6 +21,7 @@
     line-height: 4rem;
     margin-left: 3rem;
     list-style: decimal;
+    margin-bottom: 1rem;
 }
 .instructions-list-item{
     width: 100%;
@@ -42,7 +43,7 @@
         margin-left: 1rem;
     }
     .instructions-list{
-        margin-left: 1.5rem;
+        margin-left: 2rem;
     }
     .instructions-list-item{
         font-size: 1.4rem;

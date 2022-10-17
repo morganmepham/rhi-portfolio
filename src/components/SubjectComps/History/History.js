@@ -5,7 +5,7 @@ import SubSubjectButtons from "../../home_comps/SubSubjectButtons/SubSubjectButt
 const History = () => {
 
     const subSubjectData = [
-        {name: 'History', levels: ['KS2', 'KS3', 'KS4', 'KS5', 'GCSE', 'AS', 'A-Level'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']}
+        {name: 'History', levels: ['KS2', 'KS3', 'KS4',  'GCSE'], ages:['11+', '13+', '18+'], exam_boards: ['AQA', 'WJEC', 'International']}
     ]
 
     return (
@@ -26,7 +26,7 @@ const History = () => {
                     </div>}
 
                     {subSubject.levels && <div className="levels-div">
-                        <h4 className="levels-text">At Levels</h4>
+                        <h4 className="levels-text">Levels</h4>
                         {subSubject.levels.map((level) => {
                             return (
                                 <span className="levels-span">{level}</span>
