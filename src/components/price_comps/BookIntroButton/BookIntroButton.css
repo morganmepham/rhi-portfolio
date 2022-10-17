@@ -42,3 +42,14 @@
         width: 90%;
     }
 }
+@media screen and (max-width: 400px) {
+    .intro-button-span{
+        font-size: 1.2rem;
+    }
+    .intro-button-span:hover{
+        font-size: 1.3rem;
+    }
+    .intro-button-span:active{
+        font-size: 1.2rem;
+    }
+}

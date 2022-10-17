@@ -1,7 +1,7 @@
 .instructions-div{
     display: flex;
     flex-wrap: wrap;
-    height: 20rem;
+    height: fit-content;
     background-color: #fdecfd;
     align-content: flex-start;
 }
@@ -20,8 +20,32 @@
     align-items: center;
     line-height: 4rem;
     margin-left: 3rem;
+    list-style: decimal;
 }
 .instructions-list-item{
     width: 100%;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .instructions-title{
+        font-size: 2.3rem;
+    }
+    .instructions-list-item{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .instructions-title{
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .instructions-list{
+        margin-left: 1.5rem;
+    }
+    .instructions-list-item{
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
 }
