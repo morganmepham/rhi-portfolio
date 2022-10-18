@@ -37,6 +37,9 @@
 .price-button-link{
     color: #000;
 }
+.book-intro-link-subjects{
+    color: #000;
+}
 
 @media screen and (max-width: 460px) {
     .introduction-button,
